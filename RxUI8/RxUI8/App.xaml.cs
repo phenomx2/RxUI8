@@ -13,7 +13,7 @@ namespace RxUI8
 		{
 			InitializeComponent();
 
-			MainPage = new RxUI8.MainPage();
+			MainPage = new RxUI8.Views.MainPage();
 		}
 
 		protected override void OnStart ()

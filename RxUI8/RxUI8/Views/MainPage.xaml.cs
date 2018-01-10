@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace RxUI8
+namespace RxUI8.Views
 {
 	public partial class MainPage : ContentPage
 	{
