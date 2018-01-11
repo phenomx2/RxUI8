@@ -12,8 +12,8 @@ namespace RxUI8
 		public App ()
 		{
 			InitializeComponent();
-
-			MainPage = new RxUI8.Views.MainPage();
+            var bootStraper = new AppBootstrapper();
+		    MainPage = bootStraper.CreateMainPage();
 		}
 
 		protected override void OnStart ()

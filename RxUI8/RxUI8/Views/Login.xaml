@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ui:ContentPageBase xmlns="http://xamarin.com/schemas/2014/forms"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    xmlns:ui="clr-namespace:RxUI8.Views"
+                    xmlns:vms="clr-namespace:RxUI8.ViewModel"
+                    x:Class="RxUI8.Views.Login"
+                    x:TypeArguments="vms:LoginViewModel">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="Navigate"
+                    Text="Entrar"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ui:ContentPageBase>
